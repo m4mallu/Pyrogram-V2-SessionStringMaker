@@ -1,0 +1,7 @@
+.idea
+:memory:.session
+:memory:.sqlite_history
+:memory:.sqlite_sequence
+.venv
+venv
+__pycache__
