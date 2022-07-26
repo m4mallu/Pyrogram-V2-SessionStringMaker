@@ -106,6 +106,8 @@ def loop():
     if x == "1":
         start()
     elif x == "2":
+        clear()
+        print("Thanks for using m4mallu's session string maker!")
         exit()
     else:
         clear()
