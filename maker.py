@@ -67,7 +67,7 @@ def create_session(api_id, app_hash):
         app.start()
     except Exception:
         clear()
-        input("Invalid Id/Hash !\nPress 'Enter' key to continue >>>")
+        input("Invalid Id/Hash/Mobile Number (Mobile number should be in international format).\nPress 'Enter' key to continue >>>")
         fill_api()
     except ConnectionError:
         clear()
