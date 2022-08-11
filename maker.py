@@ -61,7 +61,7 @@ def fill_api():
 
 #Session creation
 def create_session(api_id, app_hash):
-    app = Client(":memory:", api_id, app_hash)
+    app = Client("session", int(api_id), app_hash)
     try:
         clear()
         app.start()
